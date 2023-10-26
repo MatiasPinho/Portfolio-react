@@ -1,10 +1,10 @@
 import "./About.css";
-
+import developer from "../../../public/developer.png";
 const About = () => {
   return (
     <>
       <section id="about-section" className="about-me-section">
-        <img className="about-img" src="./public/developer.png" alt="" />
+        <img className="about-img" src={developer} alt="" />
         <p className="paragraph-about-me">
           Soy un{" "}
           <strong>
