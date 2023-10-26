@@ -1,12 +1,11 @@
-import ProjectOne from "./ProjectOne";
-import ProjectTwo from "./ProjectTwo";
+import calcu from "../../../../public/calcu.png";
 
 const ProjectThree = ({ previous, next }) => {
   return (
     <section className="project-show-container">
       <div className="space-tecnology"></div>
 
-      <img className="image-project" src="./public/calcu.png" alt="" />
+      <img className="image-project" src={calcu} alt="" />
 
       <div className="tecnologys-projects-show">
         <span className="tecnology-show">Html</span>

@@ -1,9 +1,11 @@
+import adivina from "../../../../public/adivina.png";
+
 const ProjectTwo = ({ previous, next }) => {
   return (
     <section className="project-show-container">
       <div className="space-tecnology"></div>
 
-      <img className="image-project" src="./public/adivina.png" alt="" />
+      <img className="image-project" src={adivina} alt="" />
 
       <div className="tecnologys-projects-show">
         <span className="tecnology-show">Html</span>
