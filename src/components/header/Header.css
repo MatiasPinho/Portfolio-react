@@ -54,7 +54,7 @@ ul {
   text-decoration: underline solid #38cfa4;
 }
 
-@media (0px <= width <= 768px) {
+@media (min-width: 0px) and (max-width: 768px) {
   .nav-destokp {
     display: none;
   }

@@ -133,7 +133,7 @@ a {
   z-index: 1;
 }
 
-@media (320px <= width <= 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .decoration-icon-hero {
     height: 40px;
     width: 40px;
@@ -145,7 +145,7 @@ a {
   }
 }
 
-@media (768px <= width <= 1200px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   .h1-paragraph {
     width: 60%;
   }
@@ -155,7 +155,7 @@ a {
   }
 }
 
-@media (1200px <= width <= 1920px) {
+@media (min-width: 1200px) and (max-width: 1920px) {
   .h1-paragraph {
     width: 50%;
   }
