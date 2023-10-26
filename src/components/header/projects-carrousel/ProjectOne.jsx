@@ -1,11 +1,11 @@
 import "./ProjectsCarrousel.css";
-
+import coffeeImage from "../../../../public/coffe.jpg";
 const ProjectOne = ({ previous, next }) => {
   return (
     <section className="project-show-container">
       <div className="space-tecnology"></div>
 
-      <img className="image-project" src="./public/coffe.jpg" alt="" />
+      <img className="image-project" src={coffeeImage} alt="" />
 
       <div className="tecnologys-projects-show">
         <span className="tecnology-show">Html</span>
