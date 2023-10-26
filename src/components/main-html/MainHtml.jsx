@@ -3,7 +3,7 @@ import Tecnology from "../tecnology/Tecnology";
 import Projects from "../projects/Projects";
 import Form from "../form/Form";
 import About from "../about-me/About";
-import Separator from "../separator";
+import Separator from "../Separator";
 const MainHtml = () => {
   return (
     <>
