@@ -19,3 +19,12 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* Webkit (Safari, Chrome) */
+::-webkit-scrollbar {
+  width: 8px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #38cfa4; /* Color de la barra de desplazamiento */
+}

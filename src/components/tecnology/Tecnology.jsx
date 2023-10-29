@@ -294,7 +294,7 @@ const Tecnology = () => {
           </h2>
           <br />
           <div className="boxes">
-            <div className="box">
+            <div className="box ">
               <svg
                 className="team-work"
                 xmlns="http://www.w3.org/2000/svg"

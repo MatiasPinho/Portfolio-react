@@ -41,9 +41,30 @@ ul {
   background-color: #1d1d20;
 }
 
-.ul-destokp li:hover {
+.ul-destokp li {
+  position: relative;
+  overflow: hidden;
   cursor: pointer;
-  text-decoration: underline #38cfa4;
+}
+
+.ul-destokp a {
+  position: relative;
+  z-index: 1;
+}
+
+.ul-destokp li::before {
+  content: "";
+  border-bottom: 4px solid #71e4bf;
+  border-radius: 8px;
+  width: 0px;
+  height: 50%;
+  position: absolute;
+  left: 0px;
+  transition: width 0.4s ease-in;
+}
+
+.ul-destokp li:hover::before {
+  width: 100%;
 }
 
 .beta-advent {

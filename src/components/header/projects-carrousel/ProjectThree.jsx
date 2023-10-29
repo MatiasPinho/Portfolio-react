@@ -11,18 +11,35 @@ const ProjectThree = ({ previous, next }) => {
         <span className="tecnology-show">Html</span>
         <span className="tecnology-show">Css</span>
         <span className="tecnology-show">JavaScript</span>
+
         <span className="tecnology-show">Git</span>
         <span className="tecnology-show">Figma</span>
       </div>
       <p className="description-project-show">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-        expedita, praesentium similique, quae odio excepturi voluptatum
-        repellendus quasi illo, itaque ex qui deleniti a sequi doloribus!
-        Delectus et sequi dignissimos!
+        <strong>Este es un mini proyecto,</strong>{" "}
+        <strong>una calculadora totalmente funcional,</strong> que puede
+        realizar operaciones matemáticas básicas, incluyendo suma, resta,
+        multiplicación y división. Fue creada con el fin de consolidar mis
+        conocimientos en JavaScript y el manejo del DOM. Durante el desarrollo,
+        enfrenté desafíos en la gestión de la lógica de cálculo y en la creación
+        de <strong>una interfaz de usuario intuitiva.</strong>
       </p>
       <div className="buttons-project-show">
-        <button className="button-project-web-show">Quieres verlo?</button>
-        <button className="button-project-github-show">Github</button>
+        <button className="button-project-web-show">
+          <a
+            href="https://www.calculate-matias-pinho.netlify.app"
+            target="_blank"
+          >
+            ¿Quieres verlo?
+          </a>
+        </button>
+
+        <button className="button-project-github-show">
+          {" "}
+          <a href="https://github.com/MatiasPinho/Calculate" target="a_blank">
+            Github
+          </a>
+        </button>
         <div className="space-tecnology"></div>
       </div>
     </section>

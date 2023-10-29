@@ -13,11 +13,21 @@ const Header = () => {
         <p className="beta-advent">Beta.</p>
         <nav className="nav-destokp">
           <ul className="ul-destokp">
-            <li>Inicio</li>
-            <li>Sobre mi</li>
-            <li>Habilidades</li>
-            <li>Proyectos</li>
-            <li>Contacto</li>
+            <li className="tracking-in-contract">
+              <a href="./#hero-section">Inicio</a>
+            </li>
+            <li className="tracking-in-contract">
+              <a href="./#about-section">Sobre mi</a>
+            </li>
+            <li className="tracking-in-contract">
+              <a href="./#tecnology-section">Habilidades</a>
+            </li>
+            <li className="tracking-in-contract">
+              <a href="./#project-section">Proyectos</a>
+            </li>
+            <li className="tracking-in-contract">
+              <a href="./#form-section">Contacto</a>
+            </li>
           </ul>
         </nav>
         <nav className="nav-mobile">

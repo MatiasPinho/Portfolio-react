@@ -16,14 +16,30 @@ const ProjectTwo = ({ previous, next }) => {
         <span className="tecnology-show">Figma</span>
       </div>
       <p className="description-project-show">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-        expedita, praesentium similique, quae odio excepturi voluptatum
-        repellendus quasi illo, itaque ex qui deleniti a sequi doloribus!
-        Delectus et sequi dignissimos!
+        Este es un <strong>mini proyecto</strong> que consiste en adivinar un
+        número generado de forma aleatoria en cada intento. El proyecto incluye
+        un <strong>selector de dificultad</strong> y una mini ayuda.{" "}
+        <strong>La finalidad de este proyecto</strong> fue consolidar mis
+        conocimientos.
       </p>
       <div className="buttons-project-show">
-        <button className="button-project-web-show">Quieres verlo?</button>
-        <button className="button-project-github-show">Github</button>
+        <button className="button-project-web-show">
+          <a
+            href="https://adivina-el-numero-matias-pinho.netlify.app"
+            target="_blank"
+          >
+            ¿Quieres verlo?
+          </a>
+        </button>
+        <button className="button-project-github-show">
+          {" "}
+          <a
+            href="https://github.com/MatiasPinho/Adivina-el-numero"
+            target="a_blank"
+          >
+            Github
+          </a>
+        </button>
         <div className="space-tecnology"></div>
       </div>
     </section>

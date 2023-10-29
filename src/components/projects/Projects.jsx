@@ -61,11 +61,14 @@ const Projects = () => {
         </h2>
 
         <div className="projects-border-container">
-          <p className="button-previous-project" onClick={previous}>
+          <p
+            className="button-previous-project slide-bck-center"
+            onClick={previous}
+          >
             {"<"}
           </p>
           {project}
-          <p className="button-next-project" onClick={next}>
+          <p className="button-next-project slide-bck-center" onClick={next}>
             {">"}
           </p>
         </div>

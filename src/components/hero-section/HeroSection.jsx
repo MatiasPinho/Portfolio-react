@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <>
       {" "}
-      <section className="hero-section-container">
+      <section className="hero-section-container  ">
         <svg
           className="first-decoration-icon-hero"
           xmlns="http://www.w3.org/2000/svg"
@@ -51,26 +51,33 @@ const HeroSection = () => {
             mask="url(#path-3-outside-2_200_1457)"
           />
         </svg>
-        <div className="aside-paragraph">
+        <div className="aside-paragraph ">
           <aside className="aside-img">
             <img src="#" alt="profile-picture" />
           </aside>
           <div className="h1-paragraph">
-            <h1 id="hero-section" className="h1-hero-section">
+            <h1 id="hero-section" className="h1-hero-section ">
               Hola, mi nombre es <strong>Matias Pinho</strong>
             </h1>
-            <p className="hero-paragraph">
+            <p className="hero-paragraph ">
               Como <strong>desarrollador</strong>, me gustaría crear productos{" "}
               <strong>digitales inclusivos</strong> y accesibles en el ámbito de
               startups y proyectos emprendedores. Mi objetivo es utilizar el
               diseño para mejorar la interacción humana con{" "}
               <strong>tecnología escalable</strong>.
             </p>
-            <div className="hero-buttons">
-              <button className="button-contact">
+            <div className="hero-buttons ">
+              <button className="button-contact ">
                 <a href="./#form-section">Contactame</a>
               </button>
-              <button className="button-download-cv">Descargar CV</button>
+              <button className="button-download-cv">
+                <a
+                  href="https://drive.google.com/file/d/1ERvILaT9-sx4fWkMk3R8GzqMkZVR4vng/view?usp=sharing"
+                  target="a_blank"
+                >
+                  Descargar Cv
+                </a>
+              </button>
             </div>
           </div>
         </div>

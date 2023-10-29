@@ -32,6 +32,8 @@
 }
 
 .button-project-web-show {
+  position: relative;
+  overflow: hidden;
   border-radius: 8px;
   border: 1px solid #71e4bf;
   width: 8rem;
@@ -41,6 +43,27 @@
   font-size: 0.9rem;
   color: #38cfa4;
   cursor: pointer;
+}
+
+.button-project-web-show a {
+  position: relative;
+  z-index: 1;
+}
+
+.button-project-web-show:before {
+  content: "";
+  background-color: #38cfa4;
+  border-radius: 8px;
+  width: 0px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  transition: width 0.5s ease-in;
+}
+
+.button-project-web-show:hover::before {
+  width: 100%;
 }
 
 .button-project-github-show {
@@ -53,6 +76,13 @@
   letter-spacing: 1px;
   font-size: 0.9rem;
   cursor: pointer;
+  transition: all 1.2s;
+}
+
+.button-project-github-show:hover {
+  background-color: transparent;
+  color: #ecfdf6;
+  animation: fadeIn 0.5s ease;
 }
 
 .description-project-show {
@@ -70,9 +100,12 @@
   align-items: center;
   border: 2px solid #38cfa4;
   cursor: pointer;
+  transition: transform 0.4s, box-shadow 0.4s;
 }
 
 .button-previous-project:hover {
+  transform: scale(0.9); /* Reducir el tamaño al hacer hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Agregar sombra al hacer hover */
   background-color: #38cfa4;
 }
 
@@ -86,9 +119,12 @@
   align-items: center;
   border: 2px solid #38cfa4;
   cursor: pointer;
+  transition: transform 0.4s, box-shadow 0.4s;
 }
 
 .button-next-project:hover {
+  transform: scale(0.9); /* Reducir el tamaño al hacer hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Agregar sombra al hacer hover */
   background-color: #38cfa4;
 }
 

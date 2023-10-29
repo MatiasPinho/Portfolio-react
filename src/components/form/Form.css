@@ -4,7 +4,8 @@
   align-items: center;
   max-width: 1500px;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1.4rem;
+  background-color: #1d1d20;
 }
 
 .form-section {
@@ -20,8 +21,14 @@
 form {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 1.5rem;
+  margin: auto;
+  width: 90%;
+  max-width: 600px;
+  padding: 4.5em 3em;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid #71e4bf;
 }
 
 .label-input-group {
@@ -47,14 +54,22 @@ textarea {
 }
 
 input[type="submit"] {
-  display: flex;
-  justify-content: flex-end;
+  border-radius: 8px;
+  border: 1px solid #71e4bf;
+  width: 8rem;
+  height: 3rem;
   background: #38cfa4;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
+  color: #1d1d20;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
   cursor: pointer;
+  transition: all 1.2s;
+}
+
+input[type="submit"]:hover {
+  background-color: transparent;
+  color: #ecfdf6;
+  animation: fadeIn 0.5s ease;
 }
 
 form ul {
@@ -71,4 +86,64 @@ form ul {
   width: 2rem;
   height: 2rem;
   fill: #38cfa4;
+}
+
+.form-social {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.twitter,
+.linkedin-icon,
+.github-icon {
+  fill: #ecfdf6;
+}
+
+.form-social li {
+  transition: transform 0.6s ease, background-color 0.9s ease;
+}
+
+.form-social li a svg {
+  transition: fill 0.8s ease; /* Agregamos una transición para el color de relleno */
+}
+
+.form-social li:hover {
+  transform: translateY(-20px);
+}
+
+.form-social li:hover a svg {
+  fill: #71e4bf; /* Cambia el color de relleno del elemento SVG al hacer hover en el elemento <li> */
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  outline: none; /* Eliminar el borde predeterminado de enfoque */
+  border: 1px solid #38cfa4; /* Restablecer el borde al color deseado */
+  box-shadow: 0 0 10px rgba(56, 207, 164, 0.7); /* Agregar un efecto de sombra al enfoque */
+}
+
+textarea:hover {
+  outline: none; /* Eliminar el borde predeterminado de enfoque */
+  border: 1px solid #38cfa4; /* Restablecer el borde al color deseado */
+  box-shadow: 0 0 10px rgba(56, 207, 164, 0.7); /* Agregar un efecto de sombra al enfoque */
+}
+
+input:hover {
+  box-shadow: 0 0 10px rgba(56, 207, 164, 0.7);
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #38cfa4;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+input[type="email"]:focus,
+textarea:focus {
+  outline: none; /* Eliminar el borde predeterminado de enfoque */
+  border: 1px solid #38cfa4; /* Restablecer el borde al color deseado */
+  box-shadow: 0 0 10px rgba(56, 207, 164, 0.7); /* Agregar un efecto de sombra al enfoque */
 }

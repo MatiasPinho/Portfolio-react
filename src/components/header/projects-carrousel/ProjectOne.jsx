@@ -16,14 +16,29 @@ const ProjectOne = ({ previous, next }) => {
         <span className="tecnology-show">Figma</span>
       </div>
       <p className="description-project-show">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-        expedita, praesentium similique, quae odio excepturi voluptatum
-        repellendus quasi illo, itaque ex qui deleniti a sequi doloribus!
-        Delectus et sequi dignissimos!
+        "<strong>CODESPRESSO</strong> es un proyecto en desarrollo que tiene
+        como objetivo simular un <strong>eCommerce realista</strong>. Como parte
+        del equipo, <strong>me encargué, junto a una compañera</strong>, del
+        diseño utilizando la herramienta <strong>Figma</strong>. Actualmente,{" "}
+        <strong>mi enfoque se centra en el desarrollo del frontend</strong>.
+        Trabajamos en colaboración con el equipo de desarrollo para hacer
+        realidad CODESPRESSO
       </p>
       <div className="buttons-project-show">
-        <button className="button-project-web-show">Quieres verlo?</button>
-        <button className="button-project-github-show">Github</button>
+        <button className="button-project-web-show">
+          <a
+            href="https://www.calculate-matias-pinho.netlify.app"
+            target="_blank"
+          >
+            ¿Quieres verlo?
+          </a>
+        </button>
+        <button className="button-project-github-show">
+          {" "}
+          <a href="https://github.com/IIAGUSII/Proyecto-Coffe" target="a_blank">
+            Github
+          </a>
+        </button>
         <div className="space-tecnology"></div>
       </div>
     </section>
