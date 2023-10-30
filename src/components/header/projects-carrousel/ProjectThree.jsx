@@ -25,21 +25,22 @@ const ProjectThree = ({ previous, next }) => {
         de <strong>una interfaz de usuario intuitiva.</strong>
       </p>
       <div className="buttons-project-show">
-        <button className="button-project-web-show">
-          <a
-            href="https://www.calculate-matias-pinho.netlify.app"
-            target="_blank"
-          >
-            ¿Quieres verlo?
-          </a>
-        </button>
+        <a
+          className="button-project-web-show"
+          href="https://www.calculate-matias-pinho.netlify.app"
+          target="_blank"
+        >
+          ¿Quieres verlo?
+        </a>
 
-        <button className="button-project-github-show">
-          {" "}
-          <a href="https://github.com/MatiasPinho/Calculate" target="a_blank">
-            Github
-          </a>
-        </button>
+        <a
+          className="button-project-github-show"
+          href="https://github.com/MatiasPinho/Calculate"
+          target="a_blank"
+        >
+          Github
+        </a>
+
         <div className="space-tecnology"></div>
       </div>
     </section>

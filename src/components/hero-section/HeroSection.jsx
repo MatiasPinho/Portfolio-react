@@ -6,7 +6,7 @@ const HeroSection = () => {
       {" "}
       <section className="hero-section-container  ">
         <svg
-          className="first-decoration-icon-hero"
+          className="first-decoration-icon-hero gira"
           xmlns="http://www.w3.org/2000/svg"
           width="106"
           height="107"
@@ -70,14 +70,14 @@ const HeroSection = () => {
               <button className="button-contact ">
                 <a href="./#form-section">Contactame</a>
               </button>
-              <button className="button-download-cv">
-                <a
-                  href="https://drive.google.com/file/d/1ERvILaT9-sx4fWkMk3R8GzqMkZVR4vng/view?usp=sharing"
-                  target="a_blank"
-                >
-                  Descargar Cv
-                </a>
-              </button>
+
+              <a
+                className="button-download-cv"
+                href="https://drive.google.com/file/d/1ERvILaT9-sx4fWkMk3R8GzqMkZVR4vng/view?usp=sharing"
+                target="a_blank"
+              >
+                Descargar Cv
+              </a>
             </div>
           </div>
         </div>

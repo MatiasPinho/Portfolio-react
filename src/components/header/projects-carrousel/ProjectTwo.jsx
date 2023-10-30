@@ -23,23 +23,22 @@ const ProjectTwo = ({ previous, next }) => {
         conocimientos.
       </p>
       <div className="buttons-project-show">
-        <button className="button-project-web-show">
-          <a
-            href="https://adivina-el-numero-matias-pinho.netlify.app"
-            target="_blank"
-          >
-            ¿Quieres verlo?
-          </a>
-        </button>
-        <button className="button-project-github-show">
-          {" "}
-          <a
-            href="https://github.com/MatiasPinho/Adivina-el-numero"
-            target="a_blank"
-          >
-            Github
-          </a>
-        </button>
+        <a
+          className="button-project-web-show"
+          href="https://adivina-el-numero-matias-pinho.netlify.app"
+          target="_blank"
+        >
+          ¿Quieres verlo?
+        </a>
+
+        <a
+          className="button-project-github-show"
+          href="https://github.com/MatiasPinho/Adivina-el-numero"
+          target="a_blank"
+        >
+          Github
+        </a>
+
         <div className="space-tecnology"></div>
       </div>
     </section>

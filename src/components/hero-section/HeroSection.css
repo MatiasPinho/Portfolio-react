@@ -46,7 +46,7 @@ strong {
 
 .button-contact {
   position: relative;
-  overflow: hidden;
+
   border-radius: 8px;
   border: 1px solid #71e4bf;
   width: 8rem;
@@ -61,6 +61,7 @@ strong {
 .button-contact a {
   position: relative;
   z-index: 1;
+  padding: 1rem;
 }
 
 .button-contact::before {
@@ -73,6 +74,7 @@ strong {
   top: 0;
   left: 0px;
   transition: width 0.5s ease-in;
+  pointer-events: none; /* Agregar esta línea */
 }
 
 .button-contact:hover::before {
@@ -89,11 +91,27 @@ a {
   width: 8rem;
   height: 3rem;
   background: #38cfa4;
-  color: #1d1d20;
   letter-spacing: 1px;
   font-size: 0.9rem;
   cursor: pointer;
   transition: all 1.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.button-download-cv a {
+  width: 100%; /* Establece el ancho del enlace al 100% del botón */
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.button-download-cv:hover {
+  background-color: transparent;
+  color: #ecfdf6;
+  animation: fadeIn 0.5s ease;
 }
 
 .tracking-in-contract {
@@ -133,11 +151,6 @@ a {
     opacity: 1;
   }
 }
-.button-download-cv:hover {
-  background-color: transparent;
-  color: #ecfdf6;
-  animation: fadeIn 0.5s ease;
-}
 
 .separator {
   margin-top: 4rem;
@@ -176,6 +189,7 @@ a {
   margin-left: 2%;
   box-shadow: 21px 19px 26px -11px rgba(56, 207, 164, 1);
   z-index: 1;
+  animation: gira 2s infinite;
 }
 
 .decoration-icon-hero {
@@ -189,10 +203,20 @@ a {
   margin-right: 2%;
   box-shadow: 21px 19px 26px -11px rgba(56, 207, 164, 1);
   z-index: 1;
+  animation: gira 2s infinite;
 }
 
 .puff-in-center {
   animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+
+@keyframes gira {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes puff-in-center {

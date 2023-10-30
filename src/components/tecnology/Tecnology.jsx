@@ -5,8 +5,7 @@ const Tecnology = () => {
     <>
       <section id="tecnology-section" className="tecnology-hero-section">
         <article className="container-tecnology">
-          <br />
-          <h2 className="h2-hero-tecnology-skills">
+          <h2 id="h2-skills" className="h2-hero-tecnology-skills">
             Tecnologias{" "}
             <svg
               className="tecnology-icon"
@@ -20,7 +19,6 @@ const Tecnology = () => {
               <path d="m21,20.5v3.5h-1v-3.5c0-1.379-1.122-2.5-2.5-2.5H6.5c-1.378,0-2.5,1.121-2.5,2.5v3.5h-1v-3.5c0-1.93,1.57-3.5,3.5-3.5h11c1.93,0,3.5,1.57,3.5,3.5Zm1-14.5v6h-2v3H4v-3h-2v-6h2v-1.5c0-1.379,1.122-2.5,2.5-2.5h5V0h1v2h5c1.378,0,2.5,1.121,2.5,2.5v1.5h2ZM4,11v-4h-1v4h1Zm15-6.5c0-.827-.673-1.5-1.5-1.5H6.5c-.827,0-1.5.673-1.5,1.5v9.5h14V4.5Zm2,2.5h-1v4h1v-4Zm-10,2c0,1.103-.897,2-2,2s-2-.897-2-2,.897-2,2-2,2,.897,2,2Zm-1,0c0-.552-.449-1-1-1s-1,.448-1,1,.449,1,1,1,1-.448,1-1Zm7,0c0,1.103-.897,2-2,2s-2-.897-2-2,.897-2,2-2,2,.897,2,2Zm-1,0c0-.552-.449-1-1-1s-1,.448-1,1,.449,1,1,1,1-.448,1-1Z" />
             </svg>
           </h2>
-          <br />
 
           <div className="boxes">
             <div className="box">
@@ -273,12 +271,10 @@ const Tecnology = () => {
               <p>Figma</p>
             </div>
           </div>
-          <br />
         </article>
         <div className="line-tecnology"></div>
         <article className="container-skills">
-          <br />
-          <h2 className="h2-hero-tecnology-skills">
+          <h2 id="h2-skills" className="h2-hero-tecnology-skills">
             Habilidades{" "}
             <svg
               className="skills-icon"
@@ -292,7 +288,7 @@ const Tecnology = () => {
               <path d="m18 9.064a3.049 3.049 0 0 0 -.9-2.164 3.139 3.139 0 0 0 -4.334 0l-11.866 11.869a3.064 3.064 0 0 0 4.33 4.331l11.87-11.869a3.047 3.047 0 0 0 .9-2.167zm-14.184 12.624a1.087 1.087 0 0 1 -1.5 0 1.062 1.062 0 0 1 0-1.5l7.769-7.77 1.505 1.505zm11.872-11.872-2.688 2.689-1.5-1.505 2.689-2.688a1.063 1.063 0 1 1 1.5 1.5zm-10.825-6.961 1.55-.442.442-1.55a1.191 1.191 0 0 1 2.29 0l.442 1.55 1.55.442a1.191 1.191 0 0 1 0 2.29l-1.55.442-.442 1.55a1.191 1.191 0 0 1 -2.29 0l-.442-1.55-1.55-.442a1.191 1.191 0 0 1 0-2.29zm18.274 14.29-1.55.442-.442 1.55a1.191 1.191 0 0 1 -2.29 0l-.442-1.55-1.55-.442a1.191 1.191 0 0 1 0-2.29l1.55-.442.442-1.55a1.191 1.191 0 0 1 2.29 0l.442 1.55 1.55.442a1.191 1.191 0 0 1 0 2.29zm-5.382-14.645 1.356-.387.389-1.358a1.042 1.042 0 0 1 2 0l.387 1.356 1.356.387a1.042 1.042 0 0 1 0 2l-1.356.387-.387 1.359a1.042 1.042 0 0 1 -2 0l-.387-1.355-1.358-.389a1.042 1.042 0 0 1 0-2z" />
             </svg>
           </h2>
-          <br />
+
           <div className="boxes">
             <div className="box ">
               <svg
@@ -386,7 +382,6 @@ const Tecnology = () => {
               <p>Proactivo</p>
             </div>
           </div>
-          <br />
         </article>
       </section>
     </>
